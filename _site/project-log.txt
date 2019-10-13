@@ -1,0 +1,107 @@
+Keeping Track of What I Did – 
+
+Fri Oct 11, 2019
+- GREAT NEWS! I met up with a past coworker yesterday and he helped me hook up Jekyll which (drumroll please) allows me to use partials! My code is already SO much cleaner. Thanks Nisarg!
+- The only downside is I've had to transfer all my code over to a new repo. And good god, I got real stalled on my first push/pull to the new repo. Finally figured it out but I can't explain how the heck I solved it. I was at my wit's end so I kept trying things until suddenly it started working. Until next time...
+
+Thu Oct 10, 2019
+- I still have a ton of work to do but I feel like I can finally see the light at the end of the tunnel which is a great feeling. 
+- I fixed all the things I broke the other day, hooray.
+- Also learned that I wasn't correctly hyperlinking to my pages! I pushed my site "live" (not really) using Github Pages so that I could see what it feels like navigating around. However, none of my links were working. I was using <a href="/case.html" --- those slashes were what was messing it up. I removed all the slashes and voilà! Now they work.
+- I've also gotten my case study template to a good place which is exciting. I need to fix a few things on mobile but it's not too bad. Now I just need to write up the actual case studies!
+
+Tue Oct 8, 2019
+- Ugh things are no bueno today. I tried integrating Vue again, couldn't do it so changed branches, but didn't realize I was still including an insane number of node_module files in my commit. Then I had to revert the commit and lost a bunch of good changes that I had made cause I hadn't commited earlier. Rahhhh I'm so upset right now. 
+
+Thu Oct 3, 2019
+- Got the case study mobile page to a good place
+- Started trying to bring in Vue.js so I can create components... right now I'm repeating way too much code. But so far this has been unsuccessful. I'm still very much a newbie in JavaScript and all the terminology confuses me and then I get frustrated with it (insert sad face). Until next time, Vue.
+
+Mon Sep 30, 2019
+- Lately I've been working on my case study page. I'm starting with generic content and just making sure I have all the pieces so I can customize each case study as needed.
+- Learned a really cool trick today on full-width images in Bootstrap. I had been having trouble getting an img to go completely full-width inside a div with the container-fluid class because of its built-in padding. But I discovered how to use viewport width and some tricky left positioning to make an img seamlessly full-width. It's responsive, too!
+
+Wed Sep 25, 2019
+- Over the past couple days I worked out that About page image bug. It was a stupid mistake! I used href="" instead of src="" in the <img> tag, ha. What a bugger.
+- Today I'm back at it in full force. Cleaned up the fontstack, improved the responsive layout on the About page.
+
+Tue Sep 17, 2019
+- Made new html files for the About and Contact pages
+- When transferring over the nav to the new pages, I discovered a bug with the nav active link. The inset bottom border was forcing a height difference so I finagled that by having a hidden inset border the same color of the background.
+- Updated my name! I'm now Jenna Godfrey Fairlo hooray.
+- Tried fixing the stupid bug on the home nav link hover but wasn't getting anywhere other than frustration. Moving on and coming back to that one.
+- Started adding content to the About page.
+- Ran into a bug where I added a placeholder img for my headshot on the About page but it isn't displaying for some reason. Still investigating why that is.
+
+Thu Sep 12, 2019
+- I now have 3 button styles (a nav link and a primary button on light/dark backgrounds) but I had done each at a separate time so now I'm making them more complementary. Gotta get that interaction pattern tight, ya know?
+- Practiced branching, making a PR, merging, and pulling hooray
+
+Mon Sep 9, 2019
+- Added a sweet lil box-shadow to my nav and it really sets it off. 
+- Investigated why my nav home button's hover looks different than all the other nav links. I determined that it's pulling from different classes than the other nav links. However, I haven't cracked matching them up just yet.
+
+Sun Sep 8, 2019
+- Got the nav hover pattern to a nice spot!
+
+Thu Sep 5, 2019
+- Oof, I tried to make the nav hover pattern a little nicer, was messing with margin/padding and border stuff but I kept running into issues and alas am now frustrated. Luckily I foresaw the tricky bits so I branched and have now hopped off that branch.
+
+Wed Sep 4, 2019
+- I finally got the Today I Learned entry looking great! Took a while there... I had trouble with the video height driving the container height, making the entry too tall. I used flexbox which helped a little, but there was still a ton of padding underneath the iframe that had the video. The culprit turned out to be Bootstrap's "embed-responsive-16by9" class.
+- Responsively, things are looking good but I need to test it on more than Chrome.
+- Changed my link hover style to something that stands out a little better. 
+
+Mon Sep 2, 2019
+- Hiya! Updated the Today I Learned page: edited the first entry and changed the font styles.
+- I added a spot for a video or image for each entry. Making the media slot responsive was easy until I tried to get fancy on tablet and up and put the video side-by-side with the text. My columns are out of sort or something. Will pick back up on this asap. 
+
+Thu Aug 22, 2019
+- Jeez almost 4 months since I last worked on this! Wedding planning and leaving my job took over. But I'm back!
+- Updated stroke style for behind card img - it felt a little blah and now the strokes add depth and flair, if you will.
+- Introduced a new year format for the project cards.
+
+Thu Apr 25, 2019
+- Happy April 25th :) Made some text changes and tried out a new image for a project-card but the white img on white background does not look good. Probably will swap that out.
+
+Tue Mar 26, 2019
+- Woah, it's been a while. I got sidetracked with life and day job things for a few weeks there.
+-Anyways, today I started messing with the styles for the design projects on the home page. It's starting to come together. Pretty stylin' if I may say so myself.
+- Had forgotten how to make jump links so that was a good refresher. And I learned about the css scroll-behavior property – that was an exciting find!
+- Added some follow-along details to the footer. 
+
+Sun Jan 20, 2019
+- Tried transferring my nav code into a partial and run that using sinatra. It turned into more of a struggle than I bargained for and it's not absolutely necessary at this moment so I switched gears. 
+- Added styling to the mobile nav menu
+- Added a media query to scale the H1 sizing down for mobile and few other small things to improve mobile experience
+
+Mon Jan 14, 2019
+- Fixed some typos, removed a superfluous class
+- Got stuck in a huge wormhole on styling my active nav link. I kept running into the problem where adding a border that shows on hover of a nav link would add a few pixels to the overall height and create a janky wobble effect. Border-box box-sizing wasn't doing the trick but inset borders have saved the day and I can officially say I like my nav links, hovers and all. 
+- Touched up the TIL page headline decoration. Liking that mucho better.
+
+Sun Jan 13, 2019
+- So I rebuilt the nav and it's sooo much better. Like night and day. I didn't have to do as much styling this time around either. I also converted the colors in my css over to variables (i.e. custom properties) for easier management in the future. 
+
+Sun Jan 6, 2019
+- Got some help from my friend slash old coworker, Paul. He helped me fix my nav's collapse problem (I didn't have the js hooked up - shoot!) and advised me to just rebuild the darn thing (wise advice), among a few other things. Thanks for the help, Paul!
+
+Wed Jan 2, 2019
+- Happy New Year! Finally got some good work in --
+- Created a couple of new pages
+- Started building the TIL (Today I Learned) page and made my first post using a bootstrap well. Styling that was pretty fun. 
+
+December 2018
+- Did absolutely nuuuuthin' on this because I moved from the District to Del Ray, Alexandria, VA. And then the holidays happened. Excited to get back to it on this.
+
+Sat Nov 24, 2018
+- Fixed the project columns and refined padding
+- Changed the hero intro text
+- Made some progress on the nav – it shows links now on desktop but haven't figured out how to get them to show in the mobile dropdown menu. 
+
+Sun Nov 18, 2018
+- Fixed the nav line-height
+- Made a readme and learned about readme markdown
+- Nailed the colors down and made a fun visual reference for the readme
+- Ooh and I made a custom terminal profile and it’s dope!
+– Also customized my .bash_profile to highlight the prompt. It’s much easier to read now.

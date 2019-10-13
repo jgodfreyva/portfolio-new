@@ -1,0 +1,42 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+.jumbotron{
+    background-color: #FC5129;
+}
+
+.hero p {
+    font-weight: 300;
+    font-size: 1.5em;
+    color: #FDE9C5;
+    padding-bottom: 25px;
+}
+
+.btn {
+    background-color: #FDE9C5;
+    border: none;
+    color: #FC5129;
+    box-shadow: 3px 3px 0px var(--peachy);
+}
+
+.btn:hover {
+    background-color: #475AA5;
+    color: #FFF;
+}
+
+.btn-primary {
+    box-shadow: 5px 5px 0px var(--egg);
+    border: solid 2px var(--birdorange);
+}
+
+.btn-primary:hover {
+    box-shadow: 8px 8px var(--peachy);
+    border: solid 2px var(--bluegrandma);
+    cursor: e-resize;
+    padding: 10px 16px;
+}
+
