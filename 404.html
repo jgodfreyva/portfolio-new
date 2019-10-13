@@ -3,23 +3,38 @@ permalink: /404.html
 layout: default
 ---
 
+{% include head.html %}
+
 <style type="text/css" media="screen">
   .container {
-    margin: 10px auto;
-    max-width: 600px;
+    margin: 100px auto;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
   }
   h1 {
-    margin: 30px 0;
+/*    margin: 30px 0;*/
     font-size: 4em;
     line-height: 1;
-    letter-spacing: -1px;
   }
+    iframe {
+        max-width: 400px;
+        width: 100%;
+        margin: 20px auto 10px;
+    }
 </style>
 
-<div class="container">
-  <h1>404</h1>
+{% include nav.html %}
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+<div class="container">
+    
+   <iframe src="https://giphy.com/embed/pmgkCpOpwCQ6c" frameBorder="0"></iframe>
+    
+    <h1>404</h1>
+
+    <h3>Sorry! We can't find what you're looking for.</h3>
+    <p>Use the navigation above to go somewhere else.</p>
+    <p>Or if you think you found a bug, please <a href="contact.html">let me know!</a></p>
 </div>

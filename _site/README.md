@@ -2,7 +2,7 @@
 
 Follow along as I plug away via my [project log](project-log.txt).
 
-Note: This is a new repo integrating Jekyll into my portfolio website. The old repo can be found [here](https://github.com/jgodfreyva/portfoliosite).
+Note: This is a new repo integrating Jekyll into my portfolio website. The old repo can be found [here](https://github.com/jgodfreyva/OLD-portfoliosite).
 
 ## Colors:
 * #FDD692 Peachy
