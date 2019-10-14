@@ -297,10 +297,13 @@ nav .container-fluid {
     padding-top: 0px;
 }
 
+.til-posts {
+    margin-bottom: 100px;
+}
 
 .well {
     padding: 20px 30px;
-    margin: 10px;
+    margin: 30px 0;
     background-color: #fdd69270;
     border: solid 3px #475aa5;
     border-radius: 10px;
@@ -322,6 +325,7 @@ nav .container-fluid {
 
 .til-media {
     margin: 30px 0 0 0;
+    text-align: center;
 }
 
 .til-media iframe {
