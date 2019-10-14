@@ -30,6 +30,12 @@ a:hover {
     padding: 5px 0px 0px 0px;
 }
 
+a:visited {
+    text-decoration: none;
+    color: var(--birdorange);
+    border-bottom: solid 3px var(--birdorange);
+}
+
 h1 {
     font-size: 7em;
     padding-bottom: 10px;
