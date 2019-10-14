@@ -42,18 +42,46 @@
             background-color: var(--peachy);
             margin-top: 100px;
             margin-bottom: 0;
+            padding: 20px 10px;
+            border-radius: 10px 10px 0 0;
+            text-align: center;
         }
         
         .contact-info {
             background-color: white;
             margin-top: 0;
             margin-bottom: 150px;
-            padding: 20px;
+            padding: 30px 30px 40px;
+            border-radius: 0 0 10px 10px;      
         }
         
         .icon-style {
             margin-right: 10px;
-            color: var(--birdorange) !important;
+            color: var(--birdorange);
+        }
+        
+        .social-links a {
+            border: none;
+        }
+        
+        .social-links a:hover {
+            border-bottom: solid 0px;
+        }
+        
+        .social-links a:hover .icon-style {
+            color: var(--bluegrandma);
+        }
+        
+        .icon-email {
+            float: left;
+            margin-right: 10px;
+            color: var(--peachy);
+        }
+        
+        @media (max-width: 576px) {
+            .col-xs-12 {
+                margin: 0 auto;
+            }   
         }
         
     </style>
@@ -87,18 +115,27 @@
     </div><!-- /.container-fluid -->
 </nav>
       
-        <div class="row col-md-4 col-md-offset-4">
+        <div class="row col-xs-12 col-sm-10 col-sm-offset-1 col-md-4 col-md-offset-4">
             <div class="contact-header">
                 <h2>Get in touch with Jenna</h2>
             </div>
             <div class="contact-info">
-                <p>Feel free to reach out! Whether you're interested in working together, want to say hello in general, or noticed something on this website, I'm all ears.</p>
+                <p>Feel free to reach out! Whether you're interested in working together, just want to say hello, or noticed something on this website, I'm all ears.</p>
                 <br />
-                <p><i class="icon-style fas fa-envelope-open-text fa-lg"></i>Email me at jennafairlo[at]gmail.com</p>
-                <p>Find me on social media</p>
+                <i class="icon-email fas fa-envelope-open-text fa-3x hidden-xs"></i>
+                <p>Email me at: <br /><a href="mailto:jennafairlo@gmail.com">jennafairlo@gmail.com</a></p>
+                <hr style="border: solid 2px var(--peachy); margin:30px 0 30px;">
+                <div class="social-links">
+                    <p>Find me around the web:</p>
+                    <a href="https://www.linkedin.com/in/jgodfreyva/" target="_blank"><i class="icon-style fab fa-linkedin-in fa-lg"></i></a>
+                    <a href="https://twitter.com/jennagofree" target="_blank"><i class="icon-style fab fa-twitter fa-lg"></i></a>
+                    <a href="https://www.instagram.com/jennasaisquoi91/" target="_blank"><i class="icon-style fab fa-instagram fa-lg"></i></a>
+                </div>
             </div>
         </div>
       
+        <hr class="peachy-rule">
+        
         <footer class="container-fluid">
     <div class="madebyme">
         <p>Designed and coded by me 2018-2019</p>
