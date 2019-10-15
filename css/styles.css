@@ -4,6 +4,7 @@
     --egg: #f9f4ed;
     --bluegrandma: #475aa5;
     --denim: #344279;
+    --spacecadet: #232B49;
 }
 
 html {
@@ -412,7 +413,7 @@ nav .container-fluid {
 }
 
 .case-background {
-    background-color: var(--denim);
+    background-color: var(--spacecadet);
     min-height: 600px;
     padding: 20px;
     padding-bottom: 10px;
