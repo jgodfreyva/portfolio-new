@@ -4,7 +4,7 @@
     --egg: #f9f4ed;
     --bluegrandma: #475aa5;
     --denim: #344279;
-    --spacecadet: #232B49;
+    --spacecadet: #2E3443;
 }
 
 html {
@@ -429,8 +429,15 @@ nav .container-fluid {
 
 .case-background p {
     color: var(--egg);
-    padding: 20px 0;
+    padding: 20px 0 0;
     font-size: 1.1em;
+}
+
+.case-bg-media {
+    height: 600px; 
+    overflow-y: hidden;
+    box-shadow: 5px 5px 0 #1E222B;
+    border-radius: 5px;
 }
 
 .case-background img {
@@ -440,6 +447,7 @@ nav .container-fluid {
 .case-background hr {
     width: 50px;
     float: left; 
+    margin-top: 40px;
     margin-bottom: 0px;
     border: solid 2px var(--peachy);
 }
