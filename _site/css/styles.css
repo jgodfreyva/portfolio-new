@@ -533,6 +533,20 @@ hr.caption-rule {
     margin: auto;
     padding-right: 30px;
     padding-top: 0;
+    color: var(--bluegrandma);
+}
+
+.case-details p {
+    clear: both;
+}
+
+.case-details ul {
+    margin: 20px 20px 20px 60px;
+    color: var(--denim);
+}
+
+.case-details li {
+    padding-bottom: 10px;
 }
 
 .case-details img {
@@ -620,6 +634,19 @@ hr.caption-rule {
     text-align: left;
 }
 
+@media (max-width: 576px) {
+    .case-details .stat-highlight {
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    .case-details .stat-highlight h6 {
+        padding: 0 20px 20px;
+        text-align: center;
+    }
+}
+
 @media (max-width: 768px) {
     .case-header {
         text-align: center;
@@ -653,6 +680,10 @@ hr.caption-rule {
         padding-top: 30px;
     }
     
+    .case-details ul {
+        margin: 20px 20px 20px 10px;
+    }
+    
     .case-end .more-cases .project-card {
         margin-bottom: 30px;
         margin-top: 30px;
@@ -661,14 +692,26 @@ hr.caption-rule {
 
 @media (min-width: 992px) {
     .case-header {
-        min-height: 50vh;
+        min-height: 60vh;
         padding: 0 10%;
     }
     
     .case-details .stat-highlight {
         max-width: 600px;
+    }
+    
+    .case-details .stat-highlight h1 {
+        padding: 10px 30px 0 10px;
+    }
+    
+    .case-details .left-stat {
         float: left;
-        margin: 0 20px 0 0;
+    }
+    
+    .case-details .right-stat {
+        float: right;
+        margin-right: -20px;
+        margin-bottom: 40px;
     }
 }
 
