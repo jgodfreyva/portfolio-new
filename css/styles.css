@@ -438,6 +438,7 @@ nav .container-fluid {
     overflow-y: hidden;
     box-shadow: 5px 5px 0 #1E222B;
     border-radius: 5px;
+    margin-top: 40px;
 }
 
 .img-container-light-bg {
@@ -446,14 +447,14 @@ nav .container-fluid {
     overflow-y: hidden;
     box-shadow: 3px 3px 0 var(--peachy);
     border-radius: 5px;
-    margin: 30px 0 60px;
+    margin-top: 40px;
 }
 
 .carousel {
     background-color: var(--peachy);
     border: solid 3px var(--peachy);
     border-radius: 5px;
-    margin: 30px 0 60px;
+    margin: 30px 0 30px;
 }
 
 .carousel-indicators {
@@ -489,7 +490,7 @@ nav .container-fluid {
 hr.caption-rule {
     width: 50px;
     float: left; 
-    margin-top: 40px;
+    margin-top: 10px;
     margin-bottom: 10px;
     border: solid 2px var(--peachy);
 }
@@ -497,11 +498,13 @@ hr.caption-rule {
 .media-caption-dark-bg {
     clear: left;
     color: white;
+    margin-top: 20px;
 }
 
 .media-caption-light-bg {
     clear: left;
     color: var(--denim);
+    margin-top: 20px;
 }
 
 .case-details {
@@ -546,6 +549,14 @@ hr.caption-rule {
     padding: 60px 20px 120px;
 }
 
+.case-further-details img {
+    width: 100%;
+}
+
+.full-page-preview {
+    clear: left;
+}
+
 .tldr-summary {
     clear: left;
     border: solid 5px var(--bluegrandma);
@@ -556,6 +567,14 @@ hr.caption-rule {
 
 .tldr-summary h2 {
     margin-top: 10px;
+}
+
+.tldr-summary img {
+    width: 100px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    z-index: -100;
 }
 
 .tldr-summary i {
