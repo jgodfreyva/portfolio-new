@@ -105,7 +105,7 @@
       </div>
 
       <div class="container-fluid case-details">
-          <div class="case-details-text col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               <h2>Diving into the Redesign</h2>
               <p>We needed to turn the marketing site around… <em>fast</em>. With the new project as my primary focus, I established a rough timeline and immediately turned my attention to aligning our goals and wireframing the major pages of the new site – the Homepage, How It Works, FAQs, About Us, and Contact. I worked with the Head of Marketing and VP of Engineering to fill in any missing pieces.</p>
               <p>With information architecture agreed upon, I presented potential design directions and emphasized that our design and brand needed to strike a balance of friendliness and institutional expertise. If we leaned too far into friendly designs, we ran the risk of not matching users’ expectations of what financial services should look like and instead, sowing the seeds of distrust. I used this theory to expand and establish our design language for the new site. I would normally advocate to pause here to user test our concepts, however time was of the essence and <em>any</em> thoughtful updates would be an improvement to the site we had.</p>
@@ -143,6 +143,43 @@
               <p>This would’ve caused a serious headache when adding or removing any team member as it would show repetition in the pattern (green/green/blue). Working with a developer, we used JavaScript to program in the alternating background color and I re-edited the headshots with a transparent background. Voilà! Any time someone joined or left the team, the background colors would update.</p>
               <p>Even better: I learned how to navigate and edit the Ruby on Rails views and partials so that developers didn’t need to waste precious time updating the page. I added/removed team members on my own and pushed the code for review before another developer merged it in.</p>
               <div class="img-container-light-bg">Show the About Us page headshots</div>
+              <div class="section-break"></div>
+              <h2>Ship It!</h2>
+              <p>In early August 2018, we pushed the new site live! To get the rest of the company involved (and help us check our work), I led a QC event where all of our coworkers went through the site on their computers and phones to look for bugs, typos, etc. The two people who discovered the most errors won a gift card. It was a simple way to crowdsource QA/QC assistance as myself and the dev team had been staring at the site for far too long.</p>
+              <p>In September 2018, I recorded some pre/post launch stats from Google Analytics, showing that the redesign was already proving to be a success.</p>
+              <h3>Put in some stats here</h3>
+          </div>
+      </div>
+      
+      <div class="container-fluid case-details">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+              <h2>Post-Launch: Putting It to the Test</h2>
+              <p>Although these stats were showing good results, we wanted to test some of our assumptions that had guided us from the beginning – specifically the friendly yet professional design language. We hired a contract designer who delivered 2 alternate design styles for the Homepage.</p>
+              <p>I recruited participants for our study via Craigslist (yes, Craigslist!) and we used a short screening survey to target users in our general age, income, and FICO score demographics. Then 2 coworkers from the marketing team and myself lined up 30+ phone interviews and completed 28 total.</p>
+              <p>On each interview, we showed the participant in random order the current Homepage design as well as the 2 alternate versions, asking them to generally discuss their impressions of the design and how it made them feel. At the end, we showed them all 3 of the designs and asked them 2 major questions:</p>
+              <ul>
+                  <li>“Now that you’ve seen all 3 designs, which would you say is your favorite?”</li>
+                  <li>“If you were to input sensitive personal information like your social security number and income, which the 3 designs would put you most at ease?”</li>
+              </ul>
+              <p>The results from these key questions spoke for themselves:</p>
+              <div class="stat-highlight">
+                    <h1>75<span class="stat-percent">%</span></h1>
+                    <h6>of participants said the current Homepage was their favorite</h6>
+              </div>
+              <div class="stat-highlight">
+                    <h1>67<span class="stat-percent">%</span></h1>
+                    <h6>of participants picked my design as the one that put them most at ease</h6>
+              </div>
+              <p>In addition, we heard comments that validated our original design approach, stating that the site appeared “professional and personal” and “like a traditional website that has been reinvented”. A few participants mentioned that the illustrations add a fun spin and makes dealing with a financial service less daunting.</p>
+              <p>Although I don’t recommend completing a large redesign without testing assumptions along the way, my instincts in this case were close enough that we made the correct call in favoring speed to launch over extending the timeline to include early testing.</p>
+              <p>Our post-launch study also provided some valuable feedback that we acted upon in a round of edits. This included better highlighting of the partner logos and our “no impact to your credit” statement. A takeaway that I found especially interesting – most users reacted positively to the support team headshots next to our contact information, saying “It’s reassuring that you’ll be helped by a person, not a bot.” However, we learned of a small subset of people who thought they were <em>actors</em> or stock photos, not real employees. I added in each representative’s name with their photo in attempts to dispel this skepticism, with plans to address it further in future edits.</p>
+          </div>
+          <div class="section-break"></div>
+          <div class="tldr-summary col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <a tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-content="testing this thing out"><i class="fas fa-dove fa-flip-horizontal fa-2x"></i></a>
+            <h2>TL;DR Project Takeaways</h2>
+            <p>As a solo designer, I was incredibly proud to have designed MotoRefi’s new marketing site from top to bottom. I jumped into it with some strong opinions and assumptions on how the site should look in order to launch the site (and replace the archaic old version) as quickly as possible.</p>
+            <p>In the end, our team’s hard work paid off. Early results showed that the bounce rate of 66.79% <strong>decreased to 48.59%</strong> and average session duration <strong>increased by 40+ seconds</strong>. Our post-launch user test validated my gut instincts when it came to the design direction, with a strong majority of participants choosing my design over 2 alternate versions.</p>
           </div>
       </div>
       
@@ -199,11 +236,11 @@
       <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="../../dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
   </body>
 </html>

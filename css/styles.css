@@ -504,11 +504,29 @@ hr.caption-rule {
 
 .section-break {
     height: 100px;
+    clear: left;
 }
 
 .case-further-details {
     background-color: white;
     padding: 60px 20px 120px;
+}
+
+.tldr-summary {
+    clear: left;
+    border: solid 5px var(--bluegrandma);
+    border-radius: 5px;
+    box-shadow: 0 10px 0 var(--peachy);
+    padding: 40px;
+}
+
+.tldr-summary h2 {
+    margin-top: 10px;
+}
+
+.tldr-summary i {
+    float: right;
+    color: var(--denim);
 }
 
 .case-end {
