@@ -38,7 +38,7 @@ layout: default
       </div>
       
       <div class="container-fluid case-background">
-          <div class="col-lg-8 col-lg-offset-2">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <h2>Project Background</h2>
             <p>In fall 2017, I joined MotoRefi as the first permanent designer. I saw the opportunity to work with a wonderful team of highly-skilled developers, dig into a complex product flow, and overhaul an outdated marketing site. By the time we tackled the redesign in mid-2018, we had consistently heard from our customer support team that many calls they received were inquiries as to whether we were a legitimate company.</p> 
             <p>The marketing site not only <em>looked</em> bad; it served as an ominous welcome mat for potential customers searching online for a safe, simple way to refinance their car loan. And even though our developers ensured that the product met the latest security standards, users saw the marketing site first, losing any sense of trust for MotoRefi that they might have gained.</p>
@@ -51,9 +51,9 @@ layout: default
       </div>
 
       <div class="container-fluid case-details">
-          <div class="case-details-text col-lg-8 col-lg-offset-2">
+          <div class="case-details-text col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               <h2>Diving into the Redesign</h2>
-              <p>We needed to turn the marketing site around… <em>fast</em>. With the new project as my primary focus, I established a rough timeline and immediately turned my attention to wireframing the major pages of the new site – the Homepage, How It Works, FAQs, About Us, and Contact. I worked with the Head of Marketing and VP of Engineering to fill in any missing pieces.</p>
+              <p>We needed to turn the marketing site around… <em>fast</em>. With the new project as my primary focus, I established a rough timeline and immediately turned my attention to aligning our goals and wireframing the major pages of the new site – the Homepage, How It Works, FAQs, About Us, and Contact. I worked with the Head of Marketing and VP of Engineering to fill in any missing pieces.</p>
               <p>With information architecture agreed upon, I presented potential design directions and emphasized that our design and brand needed to strike a balance of friendliness and institutional expertise. If we leaned too far into friendly designs, we ran the risk of not matching users’ expectations of what financial services should look like and instead, sowing the seeds of distrust. I used this theory to expand and establish our design language for the new site. I would normally advocate to pause here to user test our concepts, however time was of the essence and <em>any</em> thoughtful updates would be an improvement to the site we had.</p>
 <!--
               <div class="stat-highlight">
@@ -68,6 +68,27 @@ layout: default
               <div class="img-container-light-bg">
                 <img src="img/moto.png">
               </div>
+              <div class="section-break"></div>
+              <h2>Visuals: From Illustration to Animation</h2>
+              <p>The original company brand guide was limited. For instance, our colors included the logo’s blue and green, a few supporting shades of dark blue and gray, and a shock of orange that we only used to demarcate issues in the product flow. I knew we would need to incorporate illustration into the marketing site as too many stock photos of people and cars would appear phony and dull. So, I set to work firming up our set of primary blues, secondary shades of gray (warming them up slightly to better convey approachability), and introduced a new set of accent colors – gold and peach – to help bring our illustrations to life.</p>
+              <p>I also set out to find a new headline font to complement our system-wide Roboto workhorse. Barlow Semi Condensed has a cheerful affect but can still be taken seriously. I chose the semi-condensed version knowing that some of our headlines and content could get quite lengthy.</p>
+              <p>From there I was off to the races. Working as a solo designer, it was an intimidating task to tackle all of the visuals but I was excited for the challenge.</p>
+              <div class="img-container-light-bg">Illustration images go here</div>
+              <p>One of the areas I strongly pushed for was to include headshots of a few of our support team members next to the company’s contact information. This was not because we have some of the best smiles in the business (I’m biased but we definitely do!); our customers raved about our support team. And in the financial industry, picking up the phone and speaking with a human being who can help is unfortunately rare. It’s one of MotoRefi’s competitive edges and a strong reason to showcase our team. In our <a href=“#”>post-launch user testing</a>, participants often commented on the headshots as a positive feature and one that helped them trust us more.</p>
+              <div class="img-container-light-bg">Show the support section here</div>
+              <p>To gain more trust points with prospective customers, we incorporated our Better Business Bureau (BBB) badge/rating as well as customer testimonials. Perhaps most importantly, we included the logos of our partners who already had brand traction with our audience (e.g. Equifax, TransUnion, CarFax). Interestingly in the <a href=“#”>post-launch user testing</a>, participants mentioned that the partner logos should be way higher up on the page. I took that feedback and replaced a customer testimonial right below the hero image with the familiar logos, helping to further legitimize our web presence.</p>
+              <div class="img-container-light-bg">Show the hero before/after with testimonial then partners</div>
+          </div>
+      </div>
+      
+      <div class="container-fluid case-further-details">
+          <div class=" col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+              <h2>Adventures in Code</h2>
+              <p>As I finalized designs for the new site, one of our lead developers worked to build components in our first pattern library. Once those were edited and finalized, the engineers started to bring the site to life. At each stopping point, I paired with the developer to tweak CSS where needed and fill in responsive gaps on the Bootstrap grid.</p> 
+              <p>One of the areas where designer/developer pairing was especially rewarding was solving the ever-present problem of team headshots on the <em>About Us</em> page. In any company, turnover is inevitable. My design to showcase the team featured alternating background colors (green/blue/green/blue) on each headshot to liven it up.</p>
+              <p>This would’ve caused a serious headache when adding or removing any team member as it would show repetition in the pattern (green/green/blue). Working with a developer, we used JavaScript to program in the alternating background color and I re-edited the headshots with a transparent background. Voilà! Any time someone joined or left the team, the background colors would update.</p>
+              <p>Even better: I learned how to navigate and edit the Ruby on Rails views and partials so that developers didn’t need to waste precious time updating the page. I added/removed team members on my own and pushed the code for review before another developer merged it in.</p>
+              <div class="img-container-light-bg">Show the About Us page headshots</div>
           </div>
       </div>
       

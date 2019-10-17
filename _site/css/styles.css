@@ -419,7 +419,7 @@ nav .container-fluid {
 .case-background {
     background-color: var(--spacecadet);
     min-height: 600px;
-    padding: 60px 0 100px;
+    padding: 60px 20px 120px;
 }
 
 .case-background h2 {
@@ -433,6 +433,7 @@ nav .container-fluid {
 }
 
 .img-container-dark-bg {
+    min-height: 150px;
     max-height: 600px; 
     overflow-y: hidden;
     box-shadow: 5px 5px 0 #1E222B;
@@ -440,9 +441,10 @@ nav .container-fluid {
 }
 
 .img-container-light-bg {
+    min-height: 150px;
     max-height: 600px; 
     overflow-y: hidden;
-    box-shadow: 5px 5px 0 var(--peachy);
+    box-shadow: 3px 3px 0 var(--peachy);
     border-radius: 5px;
 }
 
@@ -469,7 +471,7 @@ hr.caption-rule {
 }
 
 .case-details {
-    padding: 60px 20px 100px;
+    padding: 60px 20px 120px;
 }
 
 .case-details .stat-highlight {
@@ -498,6 +500,15 @@ hr.caption-rule {
 
 .case-details img {
     width: 100%;
+}
+
+.section-break {
+    height: 100px;
+}
+
+.case-further-details {
+    background-color: white;
+    padding: 60px 20px 120px;
 }
 
 .case-end {
