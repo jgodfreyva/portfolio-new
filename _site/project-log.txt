@@ -1,5 +1,9 @@
 Keeping Track of What I Did – 
 
+Wed Oct 16, 2019
+- I'm well on my way working on my first major case study. Finished writing the content today and got it into html. I'm still working on styling everything and will need to bring in images tomorrow.
+- I attempted to get a Bootstrap popover (like a tooltip but cooler) to work and didn't have any success. I did however, realize that alot of my script paths weren't updated so it was good to at least update those and clear out some of the console errors. 
+
 Fri Oct 11, 2019
 - GREAT NEWS! I met up with a past coworker yesterday and he helped me hook up Jekyll which (drumroll please) allows me to use partials! My code is already SO much cleaner. Thanks Nisarg!
 - The only downside is I've had to transfer all my code over to a new repo. And good god, I got real stalled on my first push/pull to the new repo. Finally figured it out but I can't explain how the heck I solved it. I was at my wit's end so I kept trying things until suddenly it started working. Until next time...
