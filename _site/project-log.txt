@@ -1,5 +1,8 @@
 Keeping Track of What I Did – 
 
+Fri Oct 18, 2019
+- Tried adding previous/next slide controls to a carousel today but that was a fail. The controls weren't showing up at all and when I inspected them, they weren't pulling their styles from Bootstrap. Couldn't find any CSS classes that matched theirs. People were talking about missing glyphicons in v4 and whatnot but I'm using v3. Anyways, the controls aren't necessary since the slide indicators are clickable. Hence, gave up on that to focus on the bigger stuff that's left.
+
 Thu Oct 17, 2019
 - The light at the end of the tunnel is growing! Probably because I'm finally almost done with my first case study and boy, does it feel good.
 - In other news, my mobile nav is now broken for some reason? When you click the hamburger icon, it opens the nav but then closes it before it fully opens. Not sure what's going on there.
