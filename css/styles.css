@@ -709,6 +709,16 @@ hr.caption-rule {
         margin: 20px 20px 20px 10px;
     }
     
+    .case-further-details .car-animation {
+        overflow: hidden;
+        margin-right: -20px;
+        margin-left: -20px;
+    }
+    
+    .case-further-details .car-animation img {
+        width: 200%;
+    }
+    
     .finishline-img {
         margin-top: 0;
     }
