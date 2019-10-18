@@ -638,7 +638,7 @@ hr.caption-rule {
     text-align: left;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 576px) {    
     .case-details .stat-highlight {
         flex-direction: column;
         align-content: center;
@@ -651,6 +651,12 @@ hr.caption-rule {
     }
 }
 
+@media (min-width: 576px) and (max-width: 768px) {
+    .case-header h1 {
+        font-size: 6em;
+    }
+}
+
 @media (max-width: 768px) {
     .case-header {
         text-align: center;
@@ -658,7 +664,7 @@ hr.caption-rule {
     }
     
     .case-header h1 {
-        padding-bottom: 0px;
+        padding-bottom: 20px;
     }
     
     .case-blurb {
@@ -695,6 +701,18 @@ hr.caption-rule {
     .case-end .more-cases .project-card {
         margin-bottom: 30px;
         margin-top: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    .case-header {
+        height: 70vh;
+    }
+}
+
+@media (min-width: 768px) {
+    .case-header h1 {
+        padding-bottom: 30px;
     }
 }
 
