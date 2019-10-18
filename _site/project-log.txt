@@ -1,5 +1,9 @@
 Keeping Track of What I Did – 
 
+Thu Oct 17, 2019
+- The light at the end of the tunnel is growing! Probably because I'm finally almost done with my first case study and boy, does it feel good.
+- In other news, my mobile nav is now broken for some reason? When you click the hamburger icon, it opens the nav but then closes it before it fully opens. Not sure what's going on there.
+
 Wed Oct 16, 2019
 - I'm well on my way working on my first major case study. Finished writing the content today and got it into html. I'm still working on styling everything and will need to bring in images tomorrow.
 - I attempted to get a Bootstrap popover (like a tooltip but cooler) to work and didn't have any success. I did however, realize that alot of my script paths weren't updated so it was good to at least update those and clear out some of the console errors. 
