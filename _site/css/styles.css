@@ -83,6 +83,7 @@ p {
     color: var(--denim);
 /*    font-family: 'Merriweather';*/
     font-size: 1em;
+    margin-bottom: 20px;
 }
 
 .dark-bg {
@@ -428,12 +429,10 @@ nav .container-fluid {
 
 .case-background p {
     color: var(--egg);
-    padding: 20px 0 0;
-    font-size: 1.1em;
 }
 
 .img-container-dark-bg {
-    min-height: 150px;
+    min-height: 100px;
     max-height: 600px; 
     overflow-y: hidden;
     box-shadow: 5px 5px 0 #1E222B;
@@ -442,7 +441,7 @@ nav .container-fluid {
 }
 
 .img-container-light-bg {
-    min-height: 150px;
+    min-height: 100px;
     max-height: 600px; 
     overflow-y: hidden;
     box-shadow: 3px 3px 0 var(--peachy);
@@ -657,6 +656,20 @@ hr.caption-rule {
     }
 }
 
+@media (max-width: 576px) {
+    .carousel-inner {
+        min-height: 350px;
+    }
+    
+    .carousel-indicators {
+        margin-bottom: -5px;
+    }
+    
+    .carousel-caption {
+        padding: 20px 10px;
+    }
+}
+
 @media (max-width: 768px) {
     .case-header {
         text-align: center;
@@ -675,6 +688,7 @@ hr.caption-rule {
         margin: 10px;
     }
     
+/*
     .case-background img {
         width: 100vw;
         position: relative;
@@ -689,6 +703,7 @@ hr.caption-rule {
         margin-left: -50vw;
         padding-top: 30px;
     }
+*/
     
     .case-details ul {
         margin: 20px 20px 20px 10px;
