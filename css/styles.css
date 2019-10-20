@@ -210,10 +210,16 @@ nav .container-fluid {
     border-radius: 0px 15px;
 }
 
-.project-card img {
+.project-img-container {
+    max-height: 250px;
+    overflow-y: hidden;
     border-bottom: solid 5px var(--bluegrandma);
     border-radius: 5px 5px 0 0;
     box-shadow: 3px 5px 0 0 var(--egg), -3px -3px 0 0 var(--egg);
+}
+
+.project-card img {
+    width: 100%;
 }
 
 .browser img {
