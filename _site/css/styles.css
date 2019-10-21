@@ -437,7 +437,6 @@ nav .container-fluid {
 
 .case-background {
     background-color: var(--spacecadet);
-    min-height: 600px;
     padding: 60px 20px 120px;
 }
 
@@ -447,6 +446,16 @@ nav .container-fluid {
 
 .case-background p {
     color: var(--egg);
+}
+
+.case-background-filler-icons {
+    color:var(--peachy); 
+    text-align: center; 
+    padding: 40px 0 0;
+}
+
+.case-background-filler-icons i {
+    padding: 10px;
 }
 
 .img-container-dark-bg {
@@ -554,6 +563,10 @@ hr.caption-rule {
 }
 
 .case-details p {
+    clear: both;
+}
+
+.case-further-details p {
     clear: both;
 }
 
