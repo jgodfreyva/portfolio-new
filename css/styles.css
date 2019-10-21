@@ -108,7 +108,6 @@ p {
 }
 
 
-
 /* ~~~~~~~~~~~~~~~~~~~~~ START NAV STYLES ~~~~~~~~~~~~~~~~~~~~ */
 
 .navbar-default {
@@ -200,8 +199,13 @@ nav .container-fluid {
     color: var(--peachy);
 }
 
+.projects {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
 .project {
-    padding: 60px 30px;
+    padding: 30px;
 }
 
 .project-card {
@@ -633,13 +637,13 @@ hr.caption-rule {
 
 .case-end {
     margin: auto;
-    padding: 30px 0 0;
+    padding: 50px 0 0;
     text-align: center;
     background-color: var(--peachy);
 }
 
 .case-end .thank-you {
-    padding-bottom: 60px;
+    padding-bottom: 80px;
 }
 
 .case-end .thank-you h4 {
@@ -661,7 +665,7 @@ hr.caption-rule {
 
 .case-end .more-cases {
     background-color: var(--denim);
-    padding-top: 30px;
+    padding-top: 60px;
     padding-bottom: 60px;
 }
 
@@ -836,7 +840,7 @@ hr.caption-rule {
     background-color: var(--peachy);
     margin-top: 100px;
     margin-bottom: 0;
-    padding: 20px 10px;
+    padding: 30px;
     border-radius: 10px 10px 0 0;
     text-align: center;
 }
