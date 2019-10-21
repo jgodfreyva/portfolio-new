@@ -13,18 +13,14 @@ html {
     
 body { 
     padding-top: 0px; 
-/*    min-height: 1800px;*/
     background-color: var(--egg);
-/*
-    font-family: Nunito;
-    font-weight: 600;
-*/
-    font-family: Futura;
+    font-family: 'Asap', sans-serif;
 }
 
 a {
     color: var(--birdorange);
     border-bottom: solid 3px;
+    font-weight: 600;
 }
 
 a:hover {
@@ -46,34 +42,36 @@ h1 {
     padding-bottom: 10px;
     color: var(--denim);
     line-height: 115%;
+    font-weight: 600;
 }
 
 h2 {
     color: var(--denim);
-    font-size: 2.2em;
+    font-size: 3em;
+    font-weight: 600;
 }
 
 h3 {
     color: var(--denim);
-    font-size: 1.5em;
-    line-height: 140%;
+    font-size: 2.5em;
+    font-weight: 600;
     margin-top: 15px;
 }
 
 h4 {
     line-height: 150%;
-    font-size: 1.2em;
+    font-size: 1.6em;
 }
 
 h5 {
-    font-size: 1em;
+    font-size: 1.2em;
+    font-weight: 600;
     color: var(--denim);
 }
 
 h6 {
-    font-size: .8em;
-    text-transform: uppercase;
-    font-weight: 700;
+    font-size: 1em;
+    font-weight: 600;
     padding-top: 5px;
     color: var(--denim);
     line-height: 150%;
@@ -81,7 +79,7 @@ h6 {
 
 p {
     color: var(--denim);
-/*    font-family: 'Merriweather';*/
+    font-weight: 500;
     font-size: 1em;
     margin-bottom: 20px;
 }
@@ -99,14 +97,13 @@ p {
     }
     
     .hero h1 {
-        font-size: 5em;
         text-align: left;
         padding-top: 10px;
         padding-bottom: 10px;
     }
     
     p {
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 }
 
@@ -132,6 +129,10 @@ nav .container-fluid {
     color: white;
     line-height: 20px;
     border-bottom: none;
+    font-weight: 600;
+}
+.nav {
+    font-weight: 500;
 }
 
 .navbar-brand {
@@ -244,6 +245,7 @@ nav .container-fluid {
     width: 30%;
     min-width: 150px;
     font-size: 18px;
+    font-weight: 500;
     line-height: 32px;
 }
 
@@ -300,13 +302,12 @@ nav .container-fluid {
 
 @media (min-width: 768px) {
     .jumbotron h1 {
-        font-size: 6em;
+        font-size: 6.5em;
     }
 }
 
 @media (min-width: 992px) { 
     .hero {
-        padding-top: 25px;
         display: flex;
         flex-direction: column;
         align-content: center;
@@ -546,7 +547,7 @@ hr.caption-rule {
 }
 
 .case-details .stat-highlight .stat-percent {
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 900;
 }
 
