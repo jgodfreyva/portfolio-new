@@ -862,12 +862,6 @@ hr.caption-rule {
     }
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
-    .case-end .projects .project-card {
-        min-height: 560px;
-    }
-}
-
 @media (min-width: 1200px) {
     .case-blurb-media {
         margin-left: 10px;
