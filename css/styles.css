@@ -227,10 +227,11 @@ nav .container-fluid {
     padding: 30px;
     border: solid 5px var(--bluegrandma); 
     border-radius: 0px 15px;
+    position: relative;
 }
 
 .project-img-container {
-    max-height: 250px;
+    max-height: 265px;
     overflow-y: hidden;
     border-bottom: solid 5px var(--bluegrandma);
     border-radius: 5px 5px 0 0;
@@ -265,6 +266,8 @@ nav .container-fluid {
     font-size: 18px;
     font-weight: 500;
     line-height: 32px;
+    position: absolute;
+    bottom: 30px;
 }
 
 .project .btn:hover {
@@ -335,6 +338,47 @@ nav .container-fluid {
     }
 }
 
+@media (max-width: 375px) {
+    .project-card h3 {
+      font-size: 2em;  
+    }
+    
+    .introduce-yourself a {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 568px) {
+    .project-card {
+        min-height: 630px;
+    } 
+    
+    .introduce-yourself img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
+
+@media (min-width: 568px) and (max-width: 992px) {
+    .project-card {
+        min-height: 600px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .project-card {
+        min-height: 620px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .project-card {
+        min-height: 580px;
+    }
+}
+
+
+
 /* ~~~~~~~~~~~~~~~~ TIL Today I Learned Page ~~~~~~~~~~~~~~~ */
 
 .til .hero {
@@ -379,6 +423,12 @@ nav .container-fluid {
 .embed-responsive-16by9 {
     padding-bottom: 380px;
     margin-bottom: 0px;
+}
+
+@media (max-width: 400px) {
+    .til-text {
+        padding-right: 30px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -920,6 +970,16 @@ footer .madebyme {
 
 footer .madebyme p {
     margin-bottom: 5px;
+}
+
+footer .madebyme .subtle-break {
+    display: none;
+}
+
+@media (max-width: 420px) {
+    footer .madebyme .subtle-break {
+        display: block;
+    }
 }
 
 @media (max-width: 768px) {
