@@ -898,6 +898,22 @@ hr.caption-rule {
     padding: 10px 30px 60px;
 }
 
+@media (max-width: 768px) {
+    .about-content {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 568px) {
+    .headshot img {
+        max-width: 250px;
+    }
+    
+    .about-content {
+        padding: 0 15px;
+    }
+}
+
 
 /* ~~~~~~~~~~~~~~~~~~~~~ CONTACT PAGE ~~~~~~~~~~~~~~~~~~~~ */
 
