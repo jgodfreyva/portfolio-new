@@ -37,6 +37,20 @@ a:visited {
     border-bottom: solid 3px var(--birdorange);
 }
 
+.btn-default:hover {
+    border-color: var(--bluegrandma);
+    box-shadow: 8px 8px 0 var(--peachy);
+}
+
+.introduce-yourself a:active {
+    color: var(--bluegrandma);
+    background-color: var(--peachy);
+    border-color: var(--bluegrandma);
+    -webkit-box-shadow: none;
+    box-shadow: 3px 3px 0 var(--peachy);
+}
+
+
 h1 {
     font-size: 7em;
     padding-bottom: 10px;
@@ -268,7 +282,7 @@ nav .container-fluid {
     align-content: center;
     justify-content: center;
     text-align: center;
-    padding: 20px 50px 50px;
+    padding: 20px 50px 80px;
 }
 
 .introduce-yourself img {
