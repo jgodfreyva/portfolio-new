@@ -476,7 +476,7 @@ nav .container-fluid {
     margin: 10px 10px;
     padding: 2px 15px;
     border-radius: 10px;
-    min-height: 150px;
+    min-height: 220px;
     width: 400px;
 }
 
@@ -494,6 +494,8 @@ nav .container-fluid {
 
 .case-blurb-media {
     max-width: 400px;
+    max-height: 220px;
+    overflow: hidden;
     padding: 0;
     margin-top: 10px;
     border: solid 3px white;
@@ -502,7 +504,6 @@ nav .container-fluid {
 
 .case-blurb-media img {
     width: 100%;
-    border-radius: 8px;
 }
 
 .case-background {
