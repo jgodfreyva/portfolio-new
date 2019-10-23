@@ -541,6 +541,7 @@ nav .container-fluid {
     box-shadow: 5px 5px 0 #1E222B;
     border-radius: 5px;
     margin-top: 40px;
+    clear: both;
 }
 
 .img-container-light-bg {
@@ -550,6 +551,7 @@ nav .container-fluid {
     box-shadow: 3px 3px 0 var(--peachy);
     border-radius: 5px;
     margin-top: 40px;
+    clear: both;
 }
 
 .carousel {
