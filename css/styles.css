@@ -898,11 +898,34 @@ hr.caption-rule {
 }
 
 .grid-of-things {
+    margin-top: 30px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+}
+
+.grid-tool {
+    width: 180px;
+    height: 180px;
+    background-color: var(--egg);
+    border: solid 5px var(--peachy);
+    border-radius: 10px;
+    margin: 15px;
+    padding: 35px 20px 20px;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    color: var(--denim);
+}
+
+.grid-tool i {
+    color: var(--bluegrandma);
+}
+
+.grid-tool h5 {
+    padding-top: 5px;
 }
 
 .grid-object {
@@ -935,6 +958,12 @@ hr.caption-rule {
     
     .about-content {
         padding: 0 15px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .line-break {
+        width: 100%;
     }
 }
 
