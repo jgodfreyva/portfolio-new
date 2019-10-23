@@ -420,6 +420,11 @@ nav .container-fluid {
     max-height: 400px;
 }
 
+.til-media img {
+    width: 100%;
+    overflow: hidden;
+}
+
 .embed-responsive-16by9 {
     padding-bottom: 380px;
     margin-bottom: 0px;
