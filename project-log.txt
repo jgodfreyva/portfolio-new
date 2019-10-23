@@ -1,5 +1,9 @@
 Keeping Track of What I Did – 
 
+Tue Oct 22, 2019
+- We are almost to the end! I met up with an old coworker today who helped me figure out a few challenges I've run into (thank you Doug!!).
+- I finally resolved the project-card heights not matching each other. I didn't want to upgrade to Bootstrap 4 just to use the h-100 classes (since that would likely break a lot of other things) so instead I set a min-height on the content container within the project-card and assigned a few media queries. It's more code but it's worth it.
+
 Fri Oct 18, 2019
 - Tried adding previous/next slide controls to a carousel today but that was a fail. The controls weren't showing up at all and when I inspected them, they weren't pulling their styles from Bootstrap. Couldn't find any CSS classes that matched theirs. People were talking about missing glyphicons in v4 and whatnot but I'm using v3. Anyways, the controls aren't necessary since the slide indicators are clickable. Hence, gave up on that to focus on the bigger stuff that's left.
 
