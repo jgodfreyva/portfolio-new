@@ -105,7 +105,7 @@ p {
 
 @media (max-width: 767px) {
     h1 {
-        font-size: 4.5em;
+        font-size: 4em;
         text-align: center;
         padding-top: 30px;
         padding-bottom: 30px;
@@ -956,6 +956,16 @@ hr.caption-rule {
 @media (max-width: 768px) {
     .about-content {
         padding: 0 30px;
+    }
+    
+    .grid-tool {
+        width: 125px;
+        height: 150px;
+        padding: 20px 10px 10px;
+    }
+    
+    .grid-tool .fa-3x {
+        font-size: 2em;
     }
 }
 
