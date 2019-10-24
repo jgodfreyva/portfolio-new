@@ -170,7 +170,6 @@ nav .container-fluid {
 }
 
 .navbar-default .navbar-nav li a:hover {
-/*    background-color: var(--peachy) !important;*/
     color: var(--peachy);
     border-bottom: inset 5px var(--bluegrandma) !important; 
     box-shadow: 0px 5px var(--bluegrandma);
@@ -181,7 +180,6 @@ nav .container-fluid {
 }
 
 .currentpage a:hover {
-/*    background-color: var(--peachy) !important;*/
     color: white !important;
     border-bottom: inset 5px var(--bluegrandma); 
     box-shadow: 0px 5px var(--bluegrandma);
@@ -205,6 +203,10 @@ nav .container-fluid {
 
 .navbar-default .navbar-toggle:hover {
     background-color: var(--bluegrandma);
+}
+
+.navbar-default .navbar-collapse {
+    border: none;
 }
 
 
