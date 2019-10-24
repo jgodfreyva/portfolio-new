@@ -717,7 +717,7 @@ hr.caption-rule {
 }
 
 .case-end .thank-you {
-    padding-bottom: 80px;
+    padding: 0 20px 80px;
 }
 
 .case-end .thank-you h4 {
