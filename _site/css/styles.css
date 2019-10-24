@@ -893,6 +893,7 @@ hr.caption-rule {
 
 .headshot img {
     max-width: 350px;
+    max-height: 350px;
     border-radius: 50%;
     border: solid 5px white;
     box-shadow: 8px 8px var(--white);
@@ -972,6 +973,7 @@ hr.caption-rule {
 @media (max-width: 568px) {
     .headshot img {
         max-width: 250px;
+        max-height: 250px;
     }
     
     .about-content {
