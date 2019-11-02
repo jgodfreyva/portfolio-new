@@ -447,8 +447,23 @@ nav .container-fluid {
 }
 
 @media (min-width: 992px) {
+    .til-posts .row {
+        display: flex;
+        align-items: center;
+        margin-right: -30px;
+    }
+    
+    .til-text {
+        padding-right: 30px;
+    }
+    
     .til-media {
         margin: 0;
+    }
+
+    
+    .til-img {
+        padding: 20px 0 20px 20px;
     }
     
     .til-audio {
