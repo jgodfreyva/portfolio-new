@@ -155,7 +155,7 @@ nav .container-fluid {
 
 .navbar-default .navbar-brand:hover {
     color: var(--peachy);
-    border-bottom: inset 5px var(--bluegrandma); 
+    border-bottom: inset 5px var(--birdorange); 
     box-shadow: 0px 5px var(--bluegrandma);
     padding: 15px;
 }
@@ -171,7 +171,6 @@ nav .container-fluid {
 
 .navbar-default .navbar-nav li a:hover {
     color: var(--peachy);
-    border-bottom: inset 5px var(--bluegrandma) !important; 
     box-shadow: 0px 5px var(--bluegrandma);
 }
 
@@ -179,17 +178,31 @@ nav .container-fluid {
     color: var(--peachy);
 }
 
-.currentpage a:hover {
-    color: white !important;
-    border-bottom: inset 5px var(--bluegrandma); 
-    box-shadow: 0px 5px var(--bluegrandma);
-}
-
-.currentpage a {
+.page-til li:nth-of-type(2) {
     color: var(--peachy) !important;
     background-color: var(--birdorange) !important;
     border-bottom: inset 5px var(--peachy) !important;
     box-shadow: 0px 5px var(--peachy);
+}
+
+.page-about li:nth-of-type(3) {
+    color: var(--peachy) !important;
+    background-color: var(--birdorange) !important;
+    border-bottom: inset 5px var(--peachy) !important;
+    box-shadow: 0px 5px var(--peachy);
+}
+
+.page-contact li:nth-of-type(4) {
+    color: var(--peachy) !important;
+    background-color: var(--birdorange) !important;
+    border-bottom: inset 5px var(--peachy) !important;
+    box-shadow: 0px 5px var(--peachy);
+}
+
+.currentpage li:hover {
+    color: white !important;
+    border-bottom: inset 5px var(--bluegrandma); 
+    box-shadow: 0px 5px var(--bluegrandma);
 }
 
 .navbar-default .navbar-toggle {
