@@ -427,6 +427,13 @@ nav .container-fluid {
     color: var(--denim);
 }
 
+.code-snippet {
+    background-color: var(--denim);
+    color: var(--peachy);
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+
 .til-media {
     margin: 30px 0 0 0;
     text-align: center;

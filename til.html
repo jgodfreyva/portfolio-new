@@ -21,6 +21,19 @@ layout: default
         <div class="well">
             <div class="row">
                 <div class="til-text col-md-6">
+                    <h6><span class="til-date">Sat Nov 2, 2019</span></h6>
+                    <p>Figured out how to pass in variables with _includes in Jekyll. I had put my nav into an html file in the _includes folder which was great for cleaning up my code but I was stumped when I wanted to visually indicate the current page you're seeing. I got some good direction on how to go about using a variable to designate a specific class (Thanks, Doug!). On my unordered list in my nav file, I set <br /><span class="code-snippet">class	&#61;&#34; &#123;&#123; include.content &#125;&#125; &#34;</span> . Then at the top of each individual page, we call in the nav file and set a specific class for the page <br /><span class="code-snippet">&#123;	&#37; include nav.html content&#61;&#34;page-til currentpage&#34; 	&#37;&#125;</span> .</p>
+                    <p>Lastly in your CSS, you'll need a rule for each page setting the "active" style. I used the <span class="code-snippet">&#58;nth-of-type&#40; &#41;</span> pseudo-class to make sure only one nav link appears active at a time.</p>
+                    <p>Learn more about <a href="https://jekyllrb.com/docs/includes/" target="_blank" class="inline-link">Jekyll _includes</a>, <a href="https://daverupert.com/2017/07/jekyll-includes-are-cool/" target="_blank" class="inline-link">passing in variables</a>, and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type" target="_blank" class="inline-link">:nth-of-type</a>.</p>
+                </div>
+                <div class="til-media til-img col-md-6 img-responsive">
+                    <img src="img/til/githubjekyll.png">
+                </div>
+            </div>
+        </div>
+        <div class="well">
+            <div class="row">
+                <div class="til-text col-md-6">
                     <h6><span class="til-date">Thu Oct 31, 2019</span></h6>
                     <p>Learned the crazy story of how Playtex won the contract to produce NASA's spacesuits. They got swindled out of the competition by defense contractors but they flew to Houston and begged to compete. In just 6 weeks, they had to design and build a suit that could withstand temperatures as low as negative 280&#176;F and as high as 240&#176;F all while housing a flexible astronaut and theirpressurized atmosphere.</p>
                     <p>When their prototype went head-to-head in user testing, it was the clear winner. One rival suit had a helmet blow off and the other couldn't fit through the hatch! Expert seamstresses working on bras and underwear suddenly had the more daunting job of sewing a 21-layer spacesuit. They couldn't be more than 1/32 inch off and had to count every single stitch to ensure quality.</p>
