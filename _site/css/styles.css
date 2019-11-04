@@ -17,6 +17,26 @@ body {
     font-family: 'Asap', sans-serif;
 }
 
+.pop-trigger {
+    border-bottom: none;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.pop-trigger:hover {
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    border-bottom: none;
+    box-shadow: 0 3px var(--birdorange);
+}
+
+.popover {
+    width: 400px;
+    box-shadow: 1.5px 1.5px 0 var(--denim);
+}
+
 a {
     color: var(--birdorange);
     border-bottom: solid 3px;
