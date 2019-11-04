@@ -32,6 +32,11 @@ body {
     box-shadow: 0 3px var(--birdorange);
 }
 
+.pop-trigger a:focus {
+    text-decoration: none;
+    outline: 2px var(--egg);
+}
+
 .popover {
     width: 400px;
     box-shadow: 1.5px 1.5px 0 var(--denim);
@@ -43,18 +48,23 @@ a {
     font-weight: 600;
 }
 
+a:visited {
+    text-decoration: none;
+    color: var(--birdorange);
+    border-bottom: solid 3px var(--birdorange);
+}
+
+a:focus {
+    outline: 0;
+    text-decoration: none;
+}
+
 a:hover {
     text-decoration: none;
     color: var(--denim);
     border-bottom: solid 5px var(--birdorange);
     background-color: white;
     padding: 5px 0px 0px 0px;
-}
-
-a:visited {
-    text-decoration: none;
-    color: var(--birdorange);
-    border-bottom: solid 3px var(--birdorange);
 }
 
 .btn-default:hover {
@@ -153,6 +163,7 @@ p {
     border-radius: 0px;
     box-sizing: border-box;
     box-shadow: 0px 2.5px var(--peachy);
+    z-index: 1000;
 }
 
 nav .container-fluid {
@@ -165,6 +176,7 @@ nav .container-fluid {
     border-bottom: none;
     font-weight: 600;
 }
+
 .nav {
     font-weight: 500;
 }
@@ -175,14 +187,13 @@ nav .container-fluid {
 
 .navbar-default .navbar-brand:hover {
     color: var(--peachy);
-    border-bottom: inset 5px var(--birdorange); 
-    box-shadow: 0px 5px var(--bluegrandma);
+    box-shadow: 0px 7.5px var(--bluegrandma);
     padding: 15px;
 }
 
 .navbar-default .navbar-nav li a {
     color: white;
-    border-bottom: inset 5px var(--birdorange);
+    border-bottom: none;
 }
 
 .navbar-default .navbar-nav li a:visited {
@@ -191,7 +202,7 @@ nav .container-fluid {
 
 .navbar-default .navbar-nav li a:hover {
     color: var(--peachy);
-    box-shadow: 0px 5px var(--bluegrandma);
+    box-shadow: 0px 7.5px var(--bluegrandma);
 }
 
 .navbar-default .navbar-nav li a:active {
@@ -201,28 +212,19 @@ nav .container-fluid {
 .page-til li:nth-of-type(2) {
     color: var(--peachy) !important;
     background-color: var(--birdorange) !important;
-    border-bottom: inset 5px var(--peachy) !important;
-    box-shadow: 0px 5px var(--peachy);
+    box-shadow: 0px 7px var(--peachy);
 }
 
 .page-about li:nth-of-type(3) {
     color: var(--peachy) !important;
     background-color: var(--birdorange) !important;
-    border-bottom: inset 5px var(--peachy) !important;
-    box-shadow: 0px 5px var(--peachy);
+    box-shadow: 0px 7px var(--peachy);
 }
 
 .page-contact li:nth-of-type(4) {
     color: var(--peachy) !important;
     background-color: var(--birdorange) !important;
-    border-bottom: inset 5px var(--peachy) !important;
-    box-shadow: 0px 5px var(--peachy);
-}
-
-.currentpage li:hover {
-    color: white !important;
-    border-bottom: inset 5px var(--bluegrandma); 
-    box-shadow: 0px 5px var(--bluegrandma);
+    box-shadow: 0px 7px var(--peachy);
 }
 
 .navbar-default .navbar-toggle {
@@ -240,6 +242,12 @@ nav .container-fluid {
 
 .navbar-default .navbar-collapse {
     border: none;
+}
+
+@media (min-width: 768px) {
+    .navbar-collapse.collapse {
+        height: 55px !important;
+    }
 }
 
 
