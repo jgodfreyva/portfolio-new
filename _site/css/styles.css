@@ -493,6 +493,12 @@ nav .container-fluid {
     }
 }
 
+@media (max-width: 1200px) {
+    .til h1 {
+        text-align: center;
+    }
+}
+
 @media (min-width: 768px) {
     .til {
         padding-top: 60px; 
@@ -524,7 +530,6 @@ nav .container-fluid {
         margin-top: 50px;
     }
 }
-
 
 
 /* ~~~~~~~~~~~~~~~~~~~~~ CASE STUDIES ~~~~~~~~~~~~~~~~~~~~ */
