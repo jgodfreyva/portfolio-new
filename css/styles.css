@@ -552,6 +552,10 @@ nav .container-fluid {
         padding-right: 30px;
     }
     
+    .til-alltext {
+       padding-right: 90px; 
+    }
+    
     .til-media {
         margin: 0;
     }
