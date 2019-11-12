@@ -12,5 +12,5 @@ Note: This is a new repo integrating Jekyll into my portfolio website. The old r
 * #344279 Denim
 
 ### Color img for reference:
-![Alt text](img/colors-nobg-smaller.jpg)
+![Alt text](img/colors-01.png)
 
