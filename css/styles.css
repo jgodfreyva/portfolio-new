@@ -1116,10 +1116,10 @@ hr.caption-rule {
 
 .contact-info {
     background-color: white;
-    margin-top: 0;
+    margin-top: 60px;
     margin-bottom: 150px;
     padding: 30px 30px 40px;
-    border-radius: 0 0 10px 10px;      
+    border-radius: 0 10px 0 10px;      
 }
 
 .icon-style {
