@@ -529,6 +529,12 @@ nav .container-fluid {
     overflow: hidden;
 }
 
+.til-text li {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
 .embed-responsive-16by9 {
     padding-bottom: 380px;
     margin-bottom: 0px;
