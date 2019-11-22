@@ -482,6 +482,16 @@ nav .container-fluid {
     padding-top: 0px;
 }
 
+.til .intro-subline {
+    margin-top: 30px; 
+    color: var(--bluegrandma);
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 30px;
+    text-align: left;
+    float: left;
+}
+
 .til-posts {
     margin-bottom: 100px;
 }
@@ -549,12 +559,24 @@ nav .container-fluid {
 @media (max-width: 768px) {
     .til h1 {
         line-height: 130%;
+        padding-bottom: 20px;
+    }
+    
+    .til .intro-subline {
+        margin-top: 0;
+        padding: 15px;
     }
 }
 
 @media (max-width: 1200px) {
     .til h1 {
         text-align: center;
+    }
+    
+    .til .intro-subline {
+        text-align: center;
+        line-height: 120%;
+        float: none;
     }
 }
 
