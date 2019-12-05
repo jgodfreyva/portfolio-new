@@ -292,10 +292,19 @@ nav .container-fluid {
     color: var(--peachy);
 }
 
+/*
+.poke-shape {
+    border-bottom: 200px solid var(--denim);
+    border-left: 50px solid transparent;
+	border-right: 0px solid transparent;
+	height: 0;
+	width: 200px;
+}
+
 .paper {
   background: var(--birdorange);
   box-shadow:
-    /* The top layer shadow */
+    /* The top layer shadow 
     0 1px 1px rgba(252,81,23,0.4),
     /* The second layer */
     0 10px 0 -5px var(--peachy),
@@ -309,6 +318,8 @@ nav .container-fluid {
     padding: 30px;
     margin: 0 0 -48px 0;
 }
+*/
+
 
 .projects {
     margin-top: 50px;
@@ -421,7 +432,7 @@ nav .container-fluid {
 
 @media (min-width: 768px) {
     .jumbotron h1 {
-        font-size: 6.5em;
+        font-size: 6em;
     }
 }
 
