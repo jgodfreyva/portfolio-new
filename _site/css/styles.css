@@ -1220,8 +1220,6 @@ footer {
 
 hr.peachy-rule {
     border: solid 1.5px var(--peachy);
-    margin-left: 20px;
-    margin-right: 20px;
     clear: left;
 }
 
