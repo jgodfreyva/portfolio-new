@@ -21,6 +21,17 @@ layout: default
     <div class="container-fluid til-posts col-lg-10 col-lg-offset-1">
         <div class="well">
             <div class="row">
+                <div class="til-alltext til-text col-md-12">
+                    <h6><span class="til-date">Sat Dec 14, 2019</span></h6>
+                    <p>Holy cannoli. So I changed the hero on my homepage on Thursday. I added in more shades of color and widened out the lines to add more visual depth. I used css <a href="https://bennettfeely.com/clippy/" target="_blank" class="inline-link">polygon clip-paths</a> and :before / :after pseudo-classes in order to create the effect. HOWEVER, I failed to notice that the z-index(s) I added to the classes put the polygons on top of the content! My rookie mistake broke the button in the hero and I didn’t catch it til today.</p>
+                    <p>I had to do some reworking of the header. The main problem was that I had set the section z-index at -1000 and then tried to overwrite it by giving the inner div containing the content a z-index of 1000 🤣 Yikes! I simplified z-situation and then had to change the diagonal stripe color to something darker than the original so you can spot it underneath the background-color of the top layer (i.e. the section containing the content). The colors aren't exactly right so I'll need to keep tweaking that but it's a decent enough bug fix for now.</p>
+                    <p>Of course, finding one bug often leads to spotting another. The polygon clip-path I had used to create the aforementioned dark stripe was positioned absolutely. I had used the same clip-path coordinates and simply shifted it with left: 40px as a shortcut. This introduced a pesky case of horizontal scrolling – gross! The overflow: hidden property didn’t do anything to help. I eventually solved the case by removing the 40px positioning and tweaking the clip-path coordinates to replicate the stripe.</p>
+                    <br />
+                </div>
+            </div>
+        </div>
+        <div class="well">
+            <div class="row">
                 <div class="til-text col-md-6">
                     <h6><span class="til-date">Wed Nov 27, 2019</span></h6>
                     <p>The other day I came across a funny French expression. <span style="color: var(--bluegrandma);"><em>Occupe-toi de tes oignons</em></span>. Translation: Mind your own onions! Or, mind your own business.</p>
@@ -54,7 +65,7 @@ layout: default
                     <h6><span class="til-date">Tue Nov 12, 2019</span></h6>
                     <p>I'm not a podcast person but man, I'm in love with a podcast. It's called <a href="https://www.wnycstudios.org/podcasts/dolly-partons-america" target="_blank" class="inline-link">Dolly Parton's America</a>, hosted by Jad Abumrad of <em>Radiolab</em> and <em>All Things Considered</em>. I've learned so many nuggets about world history, American history, and of course, Dolly! I'd highly recommend it. I'll leave you with a few tidbits I've learned:</p>
                     <ul>
-                        <li>Although the banjo is associated with <em>Deliverance</em> and Appalachia, it originated in Africa and was brought to the States by enslaved Africans. White entertainers eventually co-opted it in their blackface minstrel shows which is why it's now perceived as a traditionally "hillbilly" instrument. <a href="https://bittersoutherner.com/history-of-the-banjo#.XctU2pNKiRs" target="_blank" class="inline-link">Learn more here.</a></li>
+                        <li>Although the banjo is associated with <em>Deliverance</em> and Appalachia, it originated in Africa and was brought to the States by enslaved Africans. White entertainers later co-opted the banjo in blackface minstrel shows which is how it eventually came to be associated with <em>white</em> Southern culture. <a href="https://bittersoutherner.com/history-of-the-banjo#.XctU2pNKiRs" target="_blank" class="inline-link">Learn more here.</a></li>
                         <li>There's a subgenre of folk/country music called <em>murder ballads</em> which you may have guessed... are songs about murdering someone. <a href="https://en.wikipedia.org/wiki/The_Knoxville_Girl" target="_blank" class="inline-link">"Knoxville Girl"</a> for example is a brutal update of the 19th century Irish ballad "The Wexford Girl" which traces back to a song from 1683 that details the murder of Anne Nichols. It's a really strange corner of violent pop culture.</li>
                         <li>Dolly can legitimately play her crazy long fingernails like a washboard when demonstrating a tune! 😂 She is a hero.</li>
                     </ul>
