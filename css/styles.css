@@ -292,34 +292,9 @@ nav .container-fluid {
     color: var(--peachy);
 }
 
-/*
-.poke-shape {
-    border-bottom: 200px solid var(--denim);
-    border-left: 50px solid transparent;
-	border-right: 0px solid transparent;
-	height: 0;
-	width: 200px;
+.hero a {
+    margin-bottom: 30px;
 }
-
-.paper {
-  background: var(--birdorange);
-  box-shadow:
-    /* The top layer shadow 
-    0 1px 1px rgba(252,81,23,0.4),
-    /* The second layer */
-    0 10px 0 -5px var(--peachy),
-    /* The second layer shadow */
-    0 10px 1px -4px rgba(252,81,23,0.4),
-     /* The third layer */
-    0 20px 0 -10px var(--peachy),
-    /* The third layer shadow */
-    0 20px 1px -9px rgba(252,81,23,0.4);
-    /* Padding for demo purposes */
-    padding: 30px;
-    margin: 0 0 -48px 0;
-}
-*/
-
 
 .projects {
     margin-top: 50px;

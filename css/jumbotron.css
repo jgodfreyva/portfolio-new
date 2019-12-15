@@ -13,22 +13,23 @@ body {
     padding-bottom: 20px;
     font-size: 16px;
 }
+/*
 
 #intro {
     z-index: 1000;
 }
+*/
 
 .jumbotron {
     background-color: rgba(252, 81, 23, .8);
     padding-top: 40px;
     padding-bottom: 70px;
-    z-index: -1000;
     position: relative;
 }
 
-.jumbotron::before {
+.jumbotron:before {
     content: "";
-    background-color: #FC4001;
+    background-color: #e01b07;
     position: absolute;
     top: 0;
     left: 40px;
@@ -39,7 +40,7 @@ body {
     clip-path: polygon(0 0, 90% 0%, 70% 100%, 0 100%);
 }
 
-.jumbotron::after {
+.jumbotron:after {
     content: "";
     background-color: var(--birdorange);
     position: absolute;
