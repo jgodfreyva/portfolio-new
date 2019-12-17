@@ -1154,6 +1154,82 @@ hr.caption-rule {
     border-radius: 0 10px 0 10px;      
 }
 
+/*
+.line-animation {
+    height: 0px;
+    width: 5px;
+    margin-top: 60px;
+    margin-left: -5px;
+    border-left: 10px solid var(--peachy);
+    border-radius: 10px;
+    position: relative;
+    float: left;
+    z-index: 100;
+    
+    -webkit-animation: wax-on 3s;
+    -moz-animation: wax-on 3s, wax-off 1s;
+    -o-animation: wax-on 3s, wax-off 1s;
+    animation: wax-on 3s, wax-off 1s;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes wax-on {
+    50% {
+        height: 500px;
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes wax-on {
+    50% {
+        height: 500px;
+        opacity: 1;
+    }
+}
+
+@-o-keyframes wax-on {
+    50% {
+        height: 500px;
+        opacity: 1;
+    }
+}
+
+@keyframes wax-on {
+    50% {
+        height: 500px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes wax-off {
+    100% {
+        height: 0px;
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes wax-off {
+    100% {
+        height: 0px;
+        opacity: 0;
+    }
+}
+
+@-o-keyframes wax-off {
+    100% {
+        height: 0px;
+        opacity: 0;
+    }
+}
+
+@keyframes wax-off {
+    100% {
+        height: 0px;
+        opacity: 0;
+    }
+}
+*/
+
 .icon-style {
     margin-right: 10px;
     color: var(--birdorange);
