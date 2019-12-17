@@ -1168,7 +1168,7 @@ hr.caption-rule {
 }
 
 .social-links a:hover .icon-style {
-    color: var(--bluegrandma);
+    color: var(--denim);
 }
 
 .icon-email {
@@ -1193,6 +1193,26 @@ footer {
     clear: left;
 }
 
+.social-footer a {
+    border-bottom: none;
+}
+
+.social-footer a:hover {
+    border-bottom: none;
+    background-color: var(--egg);
+}
+
+.social-footer a:hover .icon-style {
+    color: var(--denim);
+}
+
+hr.lilrule {
+    width: 20px;
+    height: 3px;
+    background-color: var(--peachy);
+    margin-left: 0;
+}
+
 hr.peachy-rule {
     border: solid 1.5px var(--peachy);
     clear: left;
@@ -1206,24 +1226,40 @@ footer .madebyme p {
     margin-bottom: 5px;
 }
 
-footer .madebyme .subtle-break {
+footer .subtle-break {
     display: none;
 }
 
 @media (max-width: 420px) {
-    footer .madebyme .subtle-break {
+    footer .subtle-break {
         display: block;
     }
 }
 
 @media (max-width: 768px) {
-    footer .copyright {
-        padding-top: 20px;
+    footer {
+        margin-bottom: 0px; 
     }
+    
+    .social-footer {
+        margin-top: 60px;
+        margin-bottom: 120px;
+    }
+    
+    footer .copyright p {
+        margin-bottom: 0px;
+    }
+    
+    .social-footer .icon-style {
+        font-size: 2em;
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+    
 }
 
 @media (min-width: 768px) {
-    footer .copyright {
+    footer .social-footer {
         float: right;
     }
     

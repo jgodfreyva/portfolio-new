@@ -86,7 +86,7 @@
                 <div class="til-alltext til-text col-md-12">
                     <h6><span class="til-date">Sat Dec 14, 2019</span></h6>
                     <p>Holy cannoli. So I changed the hero on my homepage on Thursday. I added in more shades of color and widened out the lines to add more visual depth. I used css <a href="https://bennettfeely.com/clippy/" target="_blank" class="inline-link">polygon clip-paths</a> and :before / :after pseudo-classes in order to create the effect. HOWEVER, I failed to notice that the z-index(s) I added to the classes put the polygons on top of the content! My rookie mistake broke the button in the hero and I didn’t catch it til today.</p>
-                    <p>I had to do some reworking of the header. The main problem was that I had set the section z-index at -1000 and then tried to overwrite it by giving the inner div containing the content a z-index of 1000 🤣 Yikes! I simplified z-situation and then had to change the diagonal stripe color to something darker than the original so you can spot it underneath the background-color of the top layer (i.e. the section containing the content). The colors aren't exactly right so I'll need to keep tweaking that but it's a decent enough bug fix for now.</p>
+                    <p>I had to do some reworking of the header. The main problem was that I had set the section z-index at -1000 and then tried to overwrite it by giving the inner div containing the content a z-index of 1000 🤣 Yikes! I simplified z-situation and then had to change the diagonal stripe color to something darker than the original so you can spot it underneath the background-color of the top layer (the section containing the content). The colors aren't exactly right so I'll need to keep tweaking that but it's a decent enough bug fix for now.</p>
                     <p>Of course, finding one bug often leads to spotting another. The polygon clip-path I had used to create the aforementioned dark stripe was positioned absolutely. I had used the same clip-path coordinates and simply shifted it with left: 40px as a shortcut. This introduced a pesky case of horizontal scrolling – gross! The overflow: hidden property didn’t do anything to help. I eventually solved the case by removing the 40px positioning and tweaking the clip-path coordinates to replicate the stripe.</p>
                     <br />
                 </div>
@@ -243,13 +243,24 @@
 <footer class="container-fluid">
     <div class="madebyme">
         <p>Designed and coded by me 2018-2019</p>
-        <p>See how I made it:
+        <p>See how I made it: &nbsp;
         <br class="subtle-break">
-        <a href="https://github.com/jgodfreyva/portfolio-new" target="_blank">The Overview</a> 
+        <a href="https://github.com/jgodfreyva/portfolio-new" target="_blank">The Overview</a>
+        &nbsp;
         <a href="https://github.com/jgodfreyva/portfolio-new/blob/master/project-log.txt" target="_blank">The Nitty Gritty</a>
         </p>
     </div>
+    <div class="social-footer">
+        <p>Find me elsewhere: &nbsp;
+        <br class="subtle-break">
+        <a href="https://www.linkedin.com/in/jgodfreyva/" target="_blank"><i class="icon-style fab fa-linkedin-in fa-lg"></i></a>
+        <a href="https://github.com/jgodfreyva" target="_blank"><i class="icon-style fab fa-github fa-lg"></i></a>
+        <a href="https://twitter.com/jennagofree" target="_blank"><i class="icon-style fab fa-twitter fa-lg"></i></a>
+        <a href="https://codepen.io/jxbird" target="_blank"><i class="icon-style fab fa-codepen fa-lg"></i></a>
+        </p>
+    </div>
     <div class="copyright">
+        <hr class="lilrule">
         <p>&copy; Jenna Godfrey Fairlo 2019</p>
     </div>
 </footer>
