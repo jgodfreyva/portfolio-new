@@ -296,6 +296,21 @@ nav .container-fluid {
     margin-bottom: 30px;
 }
 
+.intro-gif {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: var(--peachy);
+}
+
+.intro-gif iframe {
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    margin: 5px 0 0 -10px;
+}
+
 .projects {
     margin-top: 50px;
     margin-bottom: 80px;
@@ -400,6 +415,24 @@ nav .container-fluid {
 }
 
 @media (max-width: 992px) {
+    .hero {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .intro-gif {
+        width: 100px;
+        height: 100px;
+        margin: 0 0 -20px 20px;
+    }
+    
+    .intro-gif iframe {
+        border-radius: 50%;
+        width: 92px;
+        height: 92px;
+        margin: 4px 0 0 -11px;
+    }
+    
     .project {
         padding: 30px;
     }
@@ -414,9 +447,10 @@ nav .container-fluid {
 @media (min-width: 992px) { 
     .hero {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-content: center;
-        justify-content: center;
+        align-items: center;
+        justify-content: flex-start;
         min-height: 60vh;
     }
 }
