@@ -55,7 +55,6 @@ body {
 @media (max-width: 768px) {
     .jumbotron::before {
         content: "";
-        background-color: #FC4001;
         position: absolute;
         top: 0;
         left: 0;
@@ -63,7 +62,7 @@ body {
         height: 100%;
         overflow: hidden;
         z-index: -100;
-        clip-path: polygon(3% 0, 100% 0%, 100% 86%, 0 105%);
+        clip-path: polygon(0 0, 100% 0%, 100% 86%, 0 105%);
     }
     
     .jumbotron::after {
@@ -76,7 +75,7 @@ body {
         height: 100%;
         overflow: hidden;
         z-index: -1;
-        clip-path: polygon(0 0, 100% 5%, 100% 81%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 81%, 0 100%);
 }
 }
 
