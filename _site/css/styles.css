@@ -111,6 +111,13 @@ h4 {
     font-size: 1.6em;
 }
 
+.perm-marker {
+    font-family: 'Permanent Marker', cursive;
+    color: var(--birdorange);
+    line-height: 120%;
+    font-size: 1.8em;
+}
+
 h5 {
     font-size: 1.2em;
     font-weight: 600;
@@ -918,6 +925,8 @@ hr.caption-rule {
 .case-end .thank-you h4 {
     font-family: 'Permanent Marker', cursive;
     color: var(--birdorange);
+    line-height: 120%;
+    margin-top: 20px;
 }
 
 .case-end .thank-you img {
