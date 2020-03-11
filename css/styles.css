@@ -1381,7 +1381,7 @@ footer .subtle-break {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     footer {
         margin-bottom: 0px; 
     }
@@ -1403,7 +1403,7 @@ footer .subtle-break {
     
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     footer .social-footer {
         float: right;
     }
