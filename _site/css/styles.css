@@ -694,6 +694,13 @@ nav .container-fluid {
     }
 }
 
+@media (min-width: 900px) and (max-width: 1200px) {
+    .til .intro-subline {
+        max-width: 60%;
+        margin: 30px auto 0px;
+    }
+}
+
 @media (max-width: 1200px) {
     .til h1 {
         text-align: center;
