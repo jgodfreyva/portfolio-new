@@ -62,8 +62,8 @@ a:focus {
 a:hover {
     text-decoration: none;
     color: var(--denim);
-    border-bottom: solid 5px var(--birdorange);
-    background-color: white;
+    border-bottom: solid 3.5px var(--birdorange);
+/*    background-color: white;*/
     padding: 5px 0px 0px 0px;
 }
 
