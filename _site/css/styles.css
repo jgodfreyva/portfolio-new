@@ -1184,6 +1184,10 @@ hr.caption-rule {
     margin-bottom: 90px;
 }
 
+.about-content p {
+    line-height: 1.65;
+}
+
 .headshot {
     display: flex;
     flex-direction: row;
