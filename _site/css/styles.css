@@ -1203,7 +1203,19 @@ hr.caption-rule {
     margin-bottom: 30px;
 }
 
-.new-section {
+.my-tunes {
+    background-color: var(--peachy);
+    padding: 50px 30px 120px;
+    text-align: center;
+}
+
+.my-tunes p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+.toolkit {
     background-color: white;
     padding: 50px 30px 120px;
     text-align: center;

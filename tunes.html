@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html lang="en">
+ 
+    {% include head.html %}
+    <title>About Jenna</title>
+    
+  <body>
+      
+    {% include nav.html content="currentpage page-about" %}
+
+      <div class="my-tunes container-fluid">
+          <div class="row">
+            <h2>What I Jam</h2>
+            <p>Over the years, I've enjoyed building playlists and sharing them with other music-lovers. Hope you enjoy the "Sounds of a Jennaration" 🎶</p>
+            <div class="playlist">
+                <iframe src="https://open.spotify.com/embed/playlist/7v245F9LK1jq0teDmp6jdA" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <p>If you played any Tony Hawk game from the '90s or early '00s, you probably already know where I'm headed with this list. Pairs well with video gaming, head banging, and heads-down computer work.</p>
+            </div>
+          </div>
+      </div>
+      
+      
+    {% include footer.html %}
+    {% include application.html %}
+  </body>
+</html>
