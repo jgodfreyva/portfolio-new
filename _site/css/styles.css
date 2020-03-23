@@ -1203,18 +1203,6 @@ hr.caption-rule {
     margin-bottom: 30px;
 }
 
-.my-tunes {
-    background-color: var(--peachy);
-    padding: 50px 30px 120px;
-    text-align: center;
-}
-
-.my-tunes p {
-    max-width: 600px;
-    margin: 0 auto 30px;
-    text-align: center;
-}
-
 .toolkit {
     background-color: white;
     padding: 50px 30px 120px;
@@ -1350,6 +1338,82 @@ hr.caption-rule {
         margin: 0 auto;
     }   
 }
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~ THE TUNES PAGE ~~~~~~~~~~~~~~~~~~~~ */
+
+.my-tunes {
+    background-color: var(--peachy);
+    padding: 50px 30px 120px;
+    text-align: center;
+}
+
+.my-tunes p {
+    max-width: 500px;
+/*    margin: 0 auto 30px;*/
+    text-align: center;
+}
+
+.playlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.playlist iframe {
+    margin-top: 100px;
+}
+
+.playlist .description {
+    text-align: left;
+    margin: 30px;
+    margin-bottom: -50px;
+}
+
+.playlist .description h6 {
+    font-family: 'Permanent Marker', cursive;
+    color: var(--birdorange);
+    line-height: 120%;
+    font-size: 1.2em;
+    text-shadow: -2px 2px var(--egg);
+    margin-bottom: 2px;
+    width: 200px;
+}
+
+.playlist .description p {
+    font-size: 14px;
+    text-align: left;
+    max-width: 300px;
+}
+
+.playlist .description .play-btn {
+    margin-top: 40px;
+/*    color: var(--birdorange);*/
+}
+
+.playlist .description .play-btn a {
+    padding: 10px;
+    background-color: var(--egg);
+/*    color: var(--birdorange);*/
+    border: none;
+    border-radius: 5px;
+}
+
+.playlist .description .play-btn a:hover {
+    background-color: var(--egg);
+    box-shadow: 2.5px 5px var(--birdorange);
+    color: var(--denim);
+}
+
+.playlist .description .play-btn a:visited {
+    background-color: var(--egg);
+    box-shadow: 2.5px 5px var(--birdorange);
+/*    color: var(--bluegrandma);*/
+}
+
 
 
 
