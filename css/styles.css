@@ -1349,7 +1349,7 @@ hr.caption-rule {
 }
 
 .my-tunes p {
-    max-width: 500px;
+/*    max-width: 500px;*/
 /*    margin: 0 auto 30px;*/
     text-align: center;
 }
@@ -1359,8 +1359,6 @@ hr.caption-rule {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
-    
 }
 
 .playlist iframe {
@@ -1415,6 +1413,18 @@ hr.caption-rule {
 }
 
 
+@media (max-width: 768px) {
+    .playlist {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px) {
+    .page-leadin p {
+        max-width: 60%;
+        margin-left: 20%;
+    }
+}
 
 
 /* ~~~~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~~~~ */
