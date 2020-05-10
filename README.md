@@ -11,6 +11,7 @@ Note: This is a new repo integrating Jekyll into my portfolio website. The old r
 * #475AA5 Blue Grandma
 * #344279 Denim
 
-### Color img for reference:
-![Alt text](img/colors-01.png)
+![Alt text](img/colors-02.png)
+
+![Alt text](img/colors-03.png)
 
